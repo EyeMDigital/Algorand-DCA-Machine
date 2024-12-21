@@ -133,7 +133,7 @@ app = tk.Tk()
 app.title("DCA Configuration")
 
 # Input Fields
-tk.Label(app, text="Amount per Purchase (e.g., 0.1)").grid(row=0, column=0, sticky="e")
+tk.Label(app, text="USDC per Purchase (e.g., 0.1)").grid(row=0, column=0, sticky="e")
 amount_var = tk.StringVar(value="0.1")
 tk.Entry(app, textvariable=amount_var).grid(row=0, column=1)
 
