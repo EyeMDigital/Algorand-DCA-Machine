@@ -1,6 +1,9 @@
 # Algorand DCA Machine
  This script automates DCA purchases for crypto assets using USDC on the Folks Finance platform. Uses Unofficial Python SDK by algolog https://github.com/algolog/ff-py-sdk
 
+## Screenshot
+![DCA Machine Screenshot](images/screenshot.jpg)
+
 ## Features
 - Securely stores wallet mnemonic
 - Customizable purchase intervals
